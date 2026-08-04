@@ -1,12 +1,12 @@
-# Ex.1 Cloud Account Setup and Services Overview in Microsoft Azure
+# *Ex.1 Cloud Account Setup and Services Overview in Microsoft Azure*
 
-### NAME: Gopikrishnan M
-### REG.NO: 212223043001
+## NAME  : GOPIKRISHNAN M
+## REG.NO: 212223043001
 
-## Aim:
+## *Aim:*
 To create a cloud account in Microsoft Azure and to explore its services such as Compute, IoT, and Security.
 
-## Procedure:
+## *Procedure:*
 Step 1: Go to the Azure Website
 
 •	Visit https://azure.microsoft.com
@@ -52,16 +52,16 @@ Step 7: Sign In to Azure Portal
 •	This is the main dashboard where you can explore all Azure services.
 
 
-## Create a User with Administrative Access (Azure Active Directory):
+## *Create a User with Administrative Access (Azure Active Directory):*
 
-### Secure your Azure account root user
+### *Secure your Azure account root user*
 
 •	Sign in to the Azure Portal as the account owner.
 
 •	Enable Multi-Factor Authentication (MFA) for your account.
 
 
-### Create a new administrative user
+### *Create a new administrative user*
 
 •	Go to Azure Active Directory (AAD) → Users → New User.
 
@@ -70,7 +70,7 @@ Step 7: Sign In to Azure Portal
 •	Under Roles, assign Global Administrator or Owner role.
 
 
-### Sign in as the administrative user
+### *Sign in as the administrative user*
 
 •	Use the newly created credentials to sign in.
 
@@ -79,16 +79,16 @@ Step 7: Sign In to Azure Portal
 •	Now use this admin account for everyday tasks (instead of root).
 
 
-## Services Overview in Azure:
+## *Services Overview in Azure:*
 
 Azure provides 200+ cloud services. In this experiment, we focus on the following key categories:
 
-### 1.	Compute Services
+### *1.	Compute Services*
    
-a. Azure Virtual Machines (VMs):
+*a. Azure Virtual Machines (VMs):*
 Azure Virtual Machines provide scalable, on-demand cloud computing resources. They allow users to run Windows or Linux workloads in the cloud without buying physical hardware.
 
-#### Features:
+#### *Features:*
 
 o	Wide choice of VM sizes and operating systems.
 
@@ -96,7 +96,7 @@ o	Supports hybrid cloud with on-premises integration.
 
 o	Customizable CPU, memory, and storage options.
 
-#### Advantages:
+#### *Advantages:*
 
 o	Pay-as-you-go pricing lowers costs.
 
@@ -104,11 +104,11 @@ o	Highly scalable, suitable for testing and enterprise workloads.
 
 o	Integrated monitoring, backup, and security.
 
-### b. Azure App Services:
+### *b. Azure App Services:*
 
 App Services is a fully managed platform for building and hosting web apps, REST APIs, and mobile apps.
 
-#### Features:
+#### *Features:*
 
 •	Multi-language support (C#, Java, Python, Node.js, PHP).
 
@@ -116,7 +116,7 @@ App Services is a fully managed platform for building and hosting web apps, REST
 
 •	Auto-scaling and high availability.
 
-#### Advantages:
+#### *Advantages:*
 
 •	Reduces infrastructure management.
 
@@ -125,11 +125,11 @@ App Services is a fully managed platform for building and hosting web apps, REST
 •	Integrated security and compliance.
 
 
-### c. Azure Functions:
+### *c. Azure Functions:*
 
 Functions is a serverless compute service that executes event-driven code.
 
-#### Features:
+#### *Features:*
 
 •	Trigger-based execution (HTTP, Blob, Queue, Event Hub).
 
@@ -137,7 +137,7 @@ Functions is a serverless compute service that executes event-driven code.
 
 •	Integrates with multiple Azure services.
 
-#### Advantages:
+#### *Advantages:*
 
 •	Cost-efficient (pay only for execution time).
 
@@ -145,13 +145,13 @@ Functions is a serverless compute service that executes event-driven code.
 
 •	Simplifies automation tasks.
 
-### 2. IoT Services
+### *2. IoT Services*
    
-a. Azure IoT Hub: 
+*a. Azure IoT Hub:* 
 
 IoT Hub enables secure communication between IoT devices and cloud applications.
 
-#### Features:
+#### *Features:*
 
 •	Bi-directional communication (device-to-cloud and cloud-to-device).
 
@@ -159,7 +159,7 @@ IoT Hub enables secure communication between IoT devices and cloud applications.
 
 •	Large-scale telemetry ingestion.
 
-#### Advantages:
+#### *Advantages:*
 
 •	Reliable device connectivity.
 
@@ -168,11 +168,11 @@ IoT Hub enables secure communication between IoT devices and cloud applications.
 •	Seamless integration with analytics and AI services.
 
 
-## b. Azure IoT Central:
+## *b. Azure IoT Central:*
 
 IoT Central is a SaaS platform for rapid IoT solution deployment.
 
-#### Features:
+#### *Features:*
 
 •	Pre-built industry templates (healthcare, retail, manufacturing).
 
@@ -180,7 +180,7 @@ IoT Central is a SaaS platform for rapid IoT solution deployment.
 
 •	Minimal coding required.
 
-#### Advantages:
+#### *Advantages:*
 
 •	Simplifies IoT app development.
 
@@ -189,11 +189,11 @@ IoT Central is a SaaS platform for rapid IoT solution deployment.
 •	Provides scalability and flexibility.
 
 
-## c. Azure Digital Twins: Model real-world environments digitally.
+## *c. Azure Digital Twins: Model real-world environments digitally.*
 
 Digital Twins models real-world physical systems digitally for monitoring and simulation.
 
-### Features:
+### *Features:*
 
 •	Create digital replicas of assets, buildings, or cities.
 
@@ -201,7 +201,7 @@ Digital Twins models real-world physical systems digitally for monitoring and si
 
 •	Enables event-driven workflows.
 
-### Advantages:
+### *Advantages:*
 
 •	Enhances decision-making.
 
@@ -211,12 +211,12 @@ Digital Twins models real-world physical systems digitally for monitoring and si
 
 
 
-## 3. Security Services
+## *3. Security Services*
    
-### a. Azure Blob Storage
+### *a. Azure Blob Storage*
 Blob Storage is optimized for storing massive amounts of unstructured data like images, videos, and backups.
 
-#### Features:
+#### *Features:*
 
 •	Hot, Cool, and Archive tiers for cost optimization.
 
@@ -224,7 +224,7 @@ Blob Storage is optimized for storing massive amounts of unstructured data like 
 
 •	Scales to petabytes of data.
 
-#### Advantages:
+#### *Advantages:*
 
 •	Cost-effective cloud storage.
 
@@ -232,11 +232,11 @@ Blob Storage is optimized for storing massive amounts of unstructured data like 
 
 •	Easy integration with analytics and ML services.
 
-## b. Azure Disk Storage
+## *b. Azure Disk Storage*
 
 Disk Storage provides persistent, high-performance storage for VMs and applications.
 
-#### Features:
+#### *Features:*
 
 •	Premium SSDs, Standard SSDs, and HDD options.
 
@@ -244,7 +244,7 @@ Disk Storage provides persistent, high-performance storage for VMs and applicati
 
 •	High IOPS and low latency.
 
-#### Advantages:
+#### *Advantages:*
 
 •	Reliable data storage for mission-critical apps.
 
@@ -252,11 +252,11 @@ Disk Storage provides persistent, high-performance storage for VMs and applicati
 
 •	Strong durability and availability.
 
-### c. Azure Files
+### *c. Azure Files*
 
 Azure Files delivers fully managed, cloud-based file shares accessible via SMB and NFS protocols.
 
-#### Features:
+#### *Features:*
 
 •	Shared file system accessible across platforms.
 
@@ -265,7 +265,7 @@ Azure Files delivers fully managed, cloud-based file shares accessible via SMB a
 •	Built-in redundancy and backup.
 
 
-#### Advantages:
+#### *Advantages:*
 
 •	Simplifies file sharing across teams.
 
@@ -273,12 +273,12 @@ Azure Files delivers fully managed, cloud-based file shares accessible via SMB a
 
 •	Secure and scalable collaboration.
 
-## Output
+## *Output*
 Snapshot 1: Azure portal login page.
-<img width="1919" height="1074" alt="Screenshot 2025-09-18 110055" src="https://github.com/user-attachments/assets/58025ae8-561b-4437-bc83-4564cbff37da" />
+<img width="1913" height="1028" alt="Screenshot 2026-08-04 093106" src="https://github.com/user-attachments/assets/00ca0205-b8e7-48a2-8d6b-48aaf6d549fc" />
 
 Snapshot 2: Services in Azure
-<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/046e8b89-0c9c-431f-8cfd-0115af78912c" />
+<img width="550" height="765" alt="Screenshot 2026-08-04 093049" src="https://github.com/user-attachments/assets/f915e6f7-cdb1-4862-9b05-1e607d96bad9" />
 
-## Result:
+## *Result:*
 Thus, a cloud account was successfully created in Microsoft Azure, and various services such as  Compute, IoT, and Storage were explored.
